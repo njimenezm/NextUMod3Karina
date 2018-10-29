@@ -1,0 +1,5 @@
+#cuerpo{
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
