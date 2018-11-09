@@ -1,34 +1,32 @@
 <!DOCTYPE html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<title>Blog de Música</title>
   </head>
-  <body class="bg-info">
+  <body class="bg-dark">
     <header>
-      <div class="container" style="background-color:#007bff">
+      <div class="container bg-light" style="background-color:#6c757d">
         <div class="row">
-          <div class="col-lg-3 col-lg-offset-9">
-            <img src="img/musiclogo.png" width="75%">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-3">
+          <div class="col-lg-3 align-self-center">
             <table>
               <tr>
-                <td><img src="img/facebookicon.png" width="100%"></td>
-								<td><img src="img/instagramicon.png" width="100%"></td>
-								<td><img src="img/twittericon.png" width="100%"></td>
-								<td><img src="img/youtubeicon.png" width="100%"></td>
-								<td><img src="img/pinteresticon.png" width="100%"></td>
+                <td><a href="https://www.facebook.com"><img src="img/facebookicon.png" width="100%"></a><td>
+								<td><a href="https://www.instagram.com"><img src="img/instagramicon.png" width="100%"></a></td>
+								<td><a href="https://www.twitter.com"><img src="img/twittericon.png" width="100%"></a></td>
+								<td><a href="https://www.youtube.com"><img src="img/youtubeicon.png" width="100%"></a></td>
+								<td><a href="https://www.pinterest.com"><img src="img/pinteresticon.png" width="100%"></a></td>
               </tr>
             </table>
           </div>
+          <div class="col-lg-3 offset-lg-6">
+            <img src="img/musiclogo.png" width="75%">
+          </div>
         </div>
       </div>
-      <div class="container" role="navigation" style="background-color:black">
-        <ul class="nav nav-tabs nav-justified">
-          <li class="nav-item active"><a class="nav-link" href="index.html">Inicio</a></li>
+      <div class="container gray-dark" role="navigation">
+        <ul class="nav nav-pills nav-justified">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
   				<li class="nav-item"><a class="nav-link" href="artistas.html">Artistas</a></li>
   				<li class="nav-item"><a class="nav-link" href="grupos.html">Grupos</a></li>
 					<li class="nav-item"><a class="nav-link" href="top10.html">Top 10</a></li>
@@ -40,11 +38,10 @@
     <section class="container" style="background-color:white">
       <div class="row">
         <article class="col-lg-8">
+          <br>
           <div class="row">
-            <br>
             <div class="col-lg-8">
               <h2>Roger Waters en Costa Rica</h2>
-              <br>
               <p>La aparición de unos cerdos en San José puso a los roqueros a soñar, pero hoy tenemos motivos para celebrar: Roger Waters, exbajista
 							y compositor de Pink Floyd estará en Costa Rica.
 							El concierto será el 24 de noviembre en el Estadio Nacional, en La Sabana, y las entradas para asistir, iniciarán su preventa a partir
@@ -55,7 +52,7 @@
 							álbumes o temas que Waters grabó junto a Pink Floyd en los años 70.</p>
             </div>
             <div class="col-lg-4">
-              <img src="img/rogerwaters.jpg" width="100%">
+              <img src="img/rogerwaters.jpg" class="rounded" width="100%">
             </div>
           </div>
           <br>
@@ -90,30 +87,35 @@
           </div>
           <br>
         </article>
-        <aside class="container col-lg-3 offset-lg-1">
+        <aside class="container col-lg-4">
           <br>
-          <div class="row">
-            <br>
-            <div class="rounded col-lg-10 offset-lg-1">
-              <input type="text" class="form-control" placeholder="Buscar..">
-            </div>
-            <div class="col-lg-2">
-              <img src="img/search.png" width="100%">
-            </div>
-            <br>
+          <div class="rounded col-lg-10 offset-lg-1">
+            <input type="text" class="form-control" placeholder="Buscar..">
+          </div>
+          <div class="col-lg-2">
+            <img src="img/search.png" width="100%">
           </div>
           <br>
-          <div class="row">
-            <div class="list-group col-lg-11 offset-lg-1">
-              <a href="artistas.html#Avicii" class="list-group-item list-group-item-action active">Noticias</a>
-              <a href="#" class="list-group-item list-group-item-action">Avicii</a>
-              <a href="#" class="list-group-item list-group-item-action">Claptone</a>
-              <a href="#" class="list-group-item list-group-item-action">Martin Garrix</a>
-              <a href="#" class="list-group-item list-group-item-action">Coldplay</a>
-              <a href="#" class="list-group-item list-group-item-action">Incubus</a>
-              <a href="#" class="list-group-item list-group-item-action">Smashing Pumpkins</a>
-            </div>
-          </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item list-group-item-primary">Noticias</li>
+              <li class="list-group-item">Roger Waters en Costa Rica</li>
+              <li class="list-group-item">Martin Garrix gana el Top 100 de DJs de la revista DJ Mag</li>
+              <li class="list-group-item list-group-item-primary">Artistas</li>
+              <li class="list-group-item">Avicii</li>
+              <li class="list-group-item">Claptone</li>
+              <li class="list-group-item">Martin Garrix</li>
+              <li class="list-group-item list-group-item-primary">Grupos</li>
+              <li class="list-group-item">Coldplay</li>
+              <li class="list-group-item">Incubus</li>
+              <li class="list-group-item">Smashing Pumpkins</li>
+              <li class="list-group-item list-group-item-primary">Top 10</li>
+              <li class="list-group-item list-group-item-primary">Letras</li>
+              <li class="list-group-item">Something Just Like This – The Chainsmokers feat Coldplay</li>
+              <li class="list-group-item">Sweater Weather – The Neighborhood</li>
+              <li class="list-group-item">Riptide – Vance Joy</li>
+              <li class="list-group-item">Stolen Dance – Milky Chance</li>
+              <li class="list-group-item">Tessellate – alt-J</li>
+            </ul>
         </aside>
       </div>
     </section>
