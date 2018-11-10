@@ -1,14 +1,15 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<title>Blog de Música</title>
   </head>
   <body class="bg-dark">
     <header>
-      <div class="container bg-light" style="background-color:#6c757d">
-        <div class="row">
-          <div class="col-lg-3 align-self-center">
+      <div class="container" style="background-image: url(img/banner.jpg)">
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-4 d-none d-sm-block align-self-center">
             <table>
               <tr>
                 <td><a href="https://www.facebook.com"><img src="img/facebookicon.png" width="100%"></a><td>
@@ -19,29 +20,39 @@
               </tr>
             </table>
           </div>
-          <div class="col-lg-3 offset-lg-6">
+          <div class="col-lg-3 col-md-3 col-sm-4 offset-lg-5 offset-md-5 offset-sm-8">
             <img src="img/musiclogo.png" width="75%">
           </div>
         </div>
       </div>
-      <div class="container gray-dark" role="navigation">
-        <ul class="nav nav-pills nav-justified">
-          <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
-  				<li class="nav-item"><a class="nav-link" href="artistas.html">Artistas</a></li>
-  				<li class="nav-item"><a class="nav-link" href="grupos.html">Grupos</a></li>
-					<li class="nav-item"><a class="nav-link" href="top10.html">Top 10</a></li>
-					<li class="nav-item"><a class="nav-link" href="letras.html">Letras</a></li>
-					<li class="nav-item disabled"><a class="nav-link" href="acordes.html">Acordes</a></li>
+      <div class="container bg-primary d-none d-sm-block" role="navigation">
+        <ul class="nav nav-tabs nav-justified">
+          <li class="nav-item"><a class="nav-link active" href="index.html"><span class="text-dark"><b>Inicio</b></a></li>
+  				<li class="nav-item"><a class="nav-link" href="artistas.html"><span class="text-dark"><b>Artistas</b></span></a></li>
+  				<li class="nav-item"><a class="nav-link" href="grupos.html"><span class="text-dark"><b>Grupos</b></span></a></li>
+					<li class="nav-item"><a class="nav-link" href="top10.html"><span class="text-dark"><b>Top 10</b></span></a></li>
+					<li class="nav-item"><a class="nav-link" href="letras.html"><span class="text-dark"><b>Letras</b></span></a></li>
+					<li class="nav-item"><a class="nav-link disabled" href="acordes.html"><span class="text-black-50"><b>Acordes</b></span></a></li>
+        </ul>
+      </div>
+      <div class="container bg-primary d-block d-sm-none" role="navigation">
+        <ul class="nav nav-tabs nav-justified">
+          <a class="nav-item nav-link active" href="index.html"><span class="text-dark"><b>Inicio</b></span></a>
+  				<li class="nav-item"><a class="nav-link" href="artistas.html"><span class="text-dark"><b>Artistas</b></span></a></li>
+  				<li class="nav-item"><a class="nav-link" href="grupos.html"><span class="text-dark"><b>Grupos</b></span></a></li>
+					<li class="nav-item"><a class="nav-link" href="top10.html"><span class="text-dark"><b>Top 10</b></span></a></li>
+					<li class="nav-item"><a class="nav-link" href="letras.html"><span class="text-dark"><b>Letras</b></span></a></li>
+					<li class="nav-item"><a class="nav-link disabled" href="acordes.html"><span class="text-black-50"><b>Acordes</b></span></a></li>
         </ul>
       </div>
     </header>
     <section class="container" style="background-color:white">
       <div class="row">
-        <article class="col-lg-8">
+        <section class="col-lg-8 col-md-8">
           <br>
-          <div class="row">
-            <div class="col-lg-8">
-              <h2>Roger Waters en Costa Rica</h2>
+          <article class="row">
+            <div class="col-lg-8 col-md-12">
+              <h2 class="text-primary">Roger Waters en Costa Rica</h2>
               <p>La aparición de unos cerdos en San José puso a los roqueros a soñar, pero hoy tenemos motivos para celebrar: Roger Waters, exbajista
 							y compositor de Pink Floyd estará en Costa Rica.
 							El concierto será el 24 de noviembre en el Estadio Nacional, en La Sabana, y las entradas para asistir, iniciarán su preventa a partir
@@ -51,71 +62,73 @@
 							Todos los espacios, excepto gramilla, tendrán sillas numeradas. Cada localidad del estadio tendrá un nombre acorde a uno de los icónicos
 							álbumes o temas que Waters grabó junto a Pink Floyd en los años 70.</p>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-8 offset-md-2">
               <img src="img/rogerwaters.jpg" class="rounded" width="100%">
             </div>
-          </div>
+          </article>
           <br>
           <div class="form-group row">
-            <div class="col-lg-9">
+            <div class="col-lg-9 col-md-9">
               <input type="text" class="form-control" id="comment" placeholder="Comentario">
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-3">
               <button type="submit" class="btn btn-primary">Enviar</button>
             </div>
           </div>
           <br>
-          <div class="row">
-            <div class="col-lg-4">
-              <img src="img/martingarrix.jpg" width="100%">
-            </div>
-            <div class="col-lg-8">
-              <h2>Martin Garrix gana el Top 100 de DJs de la revista DJ Mag</h2>
+          <article class="row" id="MartinGarrix">
+            <div class="col-lg-8 col-md-12">
+              <h2 class="text-primary">Martin Garrix gana el Top 100 de DJs de la revista DJ Mag</h2>
               <br>
               <p>Martin Garrix se ha revelado como el ganador del DJ Mag Top 100 DJs Poll 2018, con lo que la superestrella holandesa de 22 años de edad ha obtenido el titulo tres años consecutivos.</p>
               <p>Garrix fue galardonado con el trofeo del ganador por el director gerente de DJ Mag, Martin Carvell, en el escenario en la ceremonia de entrega de los 100 mejores premios de la encuesta de DJs en Amsterdam Arena. El evento tuvo lugar en el Festival de Música de Amsterdam de este año en el Amsterdam Dance Event (ADE).</p>
             </div>
-          </div>
+            <div class="col-lg-4 col-md-8 offset-md-2">
+              <img src="img/martingarrix.jpg" width="100%">
+            </div>
+          </article>
           <br>
           <div class="form-group row">
-            <div class="col-lg-9">
+            <div class="col-lg-9 col-md-9">
               <input type="text" class="form-control" id="comment" placeholder="Comentario">
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-3">
               <button type="submit" class="btn btn-primary">Enviar</button>
             </div>
           </div>
           <br>
-        </article>
-        <aside class="container col-lg-4">
+        </section>
+        <aside class="container col-lg-4 col-md-4 d-none d-sm-block">
           <br>
-          <div class="rounded col-lg-10 offset-lg-1">
-            <input type="text" class="form-control" placeholder="Buscar..">
-          </div>
-          <div class="col-lg-2">
-            <img src="img/search.png" width="100%">
+          <div class="row align-items-center">
+            <div class="rounded col-lg-10 col-md-8">
+              <input type="text" class="form-control">
+            </div>
+            <button class="btn btn-outline-dark active"><i class="material-icons">search</i></button>
           </div>
           <br>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item list-group-item-primary">Noticias</li>
-              <li class="list-group-item">Roger Waters en Costa Rica</li>
-              <li class="list-group-item">Martin Garrix gana el Top 100 de DJs de la revista DJ Mag</li>
-              <li class="list-group-item list-group-item-primary">Artistas</li>
-              <li class="list-group-item">Avicii</li>
-              <li class="list-group-item">Claptone</li>
-              <li class="list-group-item">Martin Garrix</li>
-              <li class="list-group-item list-group-item-primary">Grupos</li>
-              <li class="list-group-item">Coldplay</li>
-              <li class="list-group-item">Incubus</li>
-              <li class="list-group-item">Smashing Pumpkins</li>
-              <li class="list-group-item list-group-item-primary">Top 10</li>
-              <li class="list-group-item list-group-item-primary">Letras</li>
-              <li class="list-group-item">Something Just Like This – The Chainsmokers feat Coldplay</li>
-              <li class="list-group-item">Sweater Weather – The Neighborhood</li>
-              <li class="list-group-item">Riptide – Vance Joy</li>
-              <li class="list-group-item">Stolen Dance – Milky Chance</li>
-              <li class="list-group-item">Tessellate – alt-J</li>
-            </ul>
+          <div class="row">
+            <div class=" col-lg-12 col-md-12 list-group list-group-flush">
+              <a href="index.html" class="list-group-item list-group-item-action list-group-item-secondary active">Noticias</a>
+              <a href="index.html#RogerWaters" class="list-group-item list-group-item-action">Roger Waters en Costa Rica</a>
+              <a href="index.html#MartinGarrix" class="list-group-item list-group-item-action">Martin Garrix gana el Top 100 de DJs de la revista DJ Mag</a>
+              <a href="artistas.html" class="list-group-item list-group-item-action list-group-item-secondary">Artistas</a>
+              <a href="artistas.html#Avicii" class="list-group-item list-group-item-action">Avicii</a>
+              <a href="artistas.html#Claptone" class="list-group-item list-group-item-action">Claptone</a>
+              <a href="artistas.html#MartinGarrix" class="list-group-item list-group-item-action">Martin Garrix</la>
+              <a href="grupos.html" class="list-group-item list-group-item-action list-group-item-secondary">Grupos</a>
+              <a href="grupos.html#Coldplay" class="list-group-item list-group-item-action">Coldplay</a>
+              <a href="grupos.html#Incubus" class="list-group-item list-group-item-action">Incubus</a>
+              <a href="grupos.html#Smashing" class="list-group-item list-group-item-action">Smashing Pumpkins</a>
+              <a href="top10.html" class="list-group-item list-group-item-action list-group-item-secondary">Top 10</a>
+              <a href="letras.html" class="list-group-item list-group-item-action list-group-item-secondary">Letras</a>
+              <a href="letras.html#Something" class="list-group-item list-group-item-action">Something Just Like This – The Chainsmokers feat Coldplay</a>
+              <a href="letras.html#Sweater" class="list-group-item list-group-item-action">Sweater Weather – The Neighborhood</a>
+              <a href="letras.html#Riptide" class="list-group-item list-group-item-action">Riptide – Vance Joy</a>
+              <a href="letras.html#Strawberry" class="list-group-item list-group-item-action">Strawberry Swing – Coldplay</a>
+              <a href="letras.html#Happier" class="list-group-item list-group-item-action">Happier – Marshmellow ft. Bastille</a>
+            </div>
+          </div>
         </aside>
       </div>
     </section>
