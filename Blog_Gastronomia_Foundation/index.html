@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="css/app.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+    <style>
+      .historylink{color:black;}
+      .history:hover{background-color:white;}
+    </style>
     <title>Blog de Gastronomía</title>
   </head>
   <body style="background-image: url(img/background.jpg); background-repeat: no-repeat; background-size: 100%">
@@ -36,69 +40,177 @@
               </div>
             </div>
             <nav>
-              <ul class="vertical menu icons">
-                <li class="is-active"><a href="index.html"><span>Inicio</span></a></li>
-                <li><a href="platoperfecto.html"><span>El Plato Perfecto</span></a></li>
-                <li><a href="recetas.html"><span>Mis Recetas</span></a></li>
-              </ul>
+                <ul class="vertical menu">
+                    <li class="is-active"><a href="index.html">Inicio</a></li>
+                    <li><a href="platoperfecto.html">El Plato Perfecto</a></li>
+                    <li><a href="recetas.html">Mis Recetas</a></li>
+                </ul>
             <nav>
             <br>
             <br>
             <section id="favorites">
               <blockquote style="color:#147e7d"><h4>Favoritos</h4></blockquote>
               <div class="grid-x">
-                <div class="cell large-4">
-                  <a href="recetas.html#Bombones"><img class="thumbnail" src="img/bombones.png" width="100%"></a>
-                </div>
-                <div class="cell large-4">
-                  <a href="recetas.html#PastelFresas"><img class="thumbnail" src="img/pastelfresas.png" width="100%"></a>
-                </div>
-                <div class="cell large-4">
-                  <a href="recetas.html#CarlotaLimon"><img class="thumbnail" src="img/carlotalimon.png" width="100%"></a>
-                </div>
+                  <div class="cell large-4">
+                      <a href="recetas.html#Bombones"><img class="thumbnail" src="img/bombones.png" width="100%"></a>
+                  </div>
+                  <div class="cell large-4">
+                      <a href="recetas.html#PastelFresas"><img class="thumbnail" src="img/pastelfresas.png" width="100%"></a>
+                  </div>
+                  <div class="cell large-4">
+                      <a href="recetas.html#CarlotaLimon"><img class="thumbnail" src="img/carlotalimon.png" width="100%"></a>
+                  </div>
               </div>
               <div class="grid-x">
-                <div class="cell large-4">
-                  <a href="recetas.html#BananaSplit"><img class="thumbnail" src="img/bananasplit.png" width="100%"></a>
-                </div>
-                <div class="cell large-4">
-                  <a href="recetas.html#Mousse"><img class="thumbnail" src="img/mousse.png" width="100%"></a>
-                </div>
-                <div class="cell large-4">
-                  <a href="recetas.html#Tiramisu"><img class="thumbnail" src="img/tiramisu.png" width="100%"></a>
-                </div>
+                  <div class="cell large-4">
+                      <a href="recetas.html#BananaSplit"><img class="thumbnail" src="img/bananasplit.png" width="100%"></a>
+                  </div>
+                  <div class="cell large-4">
+                      <a href="recetas.html#Mousse"><img class="thumbnail" src="img/mousse.png" width="100%"></a>
+                  </div>
+                  <div class="cell large-4">
+                      <a href="recetas.html#Tiramisu"><img class="thumbnail" src="img/tiramisu.png" width="100%"></a>
+                  </div>
               </div>
             </section>
             <br>
             <br>
-            <blockquote style="color: #147e7d"><h4>Historial</h4></blockquote>
-            <div class="callout small secondary"><a href="recetas.html#Cheesecake"><span style="color:black">Cheesecake con Brownie y Chispas de Chocolate</span></a></div>
-  		      <div class="callout small secondary"><a href="recetas.html#Naranja"><span style="color:black">Torta de naranja y chocolate</span></div>
-            <div class="callout small secondary"><a href="platoperfecto.html"><span style="color:black">El Plato Perfecto</span></div>
-  		      <div class="callout small secondary"><a href="index.html#Festival"><span style="color:black">Festival Gastronómico La Luz 2018</span></div>
-  		      <div class="callout small secondary"><a href="index.html#Kahli"><span style="color:black">Kahli Café</span></div>
-  		      <div class="callout small secondary"><a href="recetas.html#Tiramisu"><span style="color:black">Torta Tiramisu</span></div>
-  		      <div class="callout small secondary"><a href="recetas.html#Mousse"><span style="color:black">Mousse de Maracuya y Chocolate</span></div>
-  		      <div class="callout small secondary"><a href="recetas.html#BananaSplit"><span style="color:black">Pastel Helado de Banana Split</span></div>
-  		      <div class="callout small secondary"><a href="recetas.html#CarlotaLimon"><span style="color:black">Carlota de Limon</span></div>
-  		      <div class="callout small secondary"><a href="recetas.html#PastelFresas"><span style="color:black">Pastel de fresas con crema</span></div>
-  		      <div class="callout small secondary"><a href="recetas.html#Bombones"><span style="color:black">Bombones de Chocolate Blanco, Nutella y Oreo</span></div>
-          </div>
+            <section>
+                <blockquote style="color:#147e7d"><h4>Historial</h4></blockquote>
+                <ul class="no-bullet">
+                    <li class="history"><a href="recetas.html#Cheesecake"><p class="historylink text-truncate">Cheesecake con Brownie y Chispas de Chocolate</p></a></li>
+                    <hr>
+                    <li class="history"><a href="recetas.html#Naranja"><p class="historylink text-truncate">Torta de Naranja y Chocolate</p></a></li>
+                    <hr>
+                    <li class="history"><a href="platoperfecto.html"><p class="historylink text-truncate">El Plato Perfecto</p></a></li>
+                    <hr>
+                    <li class="history"><a href="index.html#Festival"><p class="historylink text-truncate">Festival Gastronómico La Luz 2018</p></a></li>
+                    <hr>
+                    <li class="history"><a href="index.html#Kahli"><p class="historylink text-truncate">Kahli Café</p></a></li>
+                    <hr>
+                    <li class="history"><a href="recetas.html#Mousse"><p class="historylink text-truncate">Mousse de Maracuya y Chocolate</p></a></li>
+                    <hr>
+                    <li class="history"><a href="recetas.html#BananaSplit"><p class="historylink text-truncate">Pastel Helado de Banana Split</p></a></li>
+                    <hr>
+                    <li class="history"><a href="recetas.html#CarlotaLimon"><p class="historylink text-truncate">Carlota de Limon</p></a></li>
+                    <hr>
+                    <li class="history"><a href="recetas.html#PastelFresas"><p class="historylink text-truncate">Pastel de Fresas con Crema</p></a></li>
+                    <hr>
+                    <li class="history"><a href="recetas.html#Bombones"><p class="historylink text-truncate">Bombones de Chocolate Blanco, Nutella y Oreo</p></a></li>
+                </ul>
+            </section>
         </aside>
-        <article class="cell large-7 large-offset-1">
-          <article class="card" id="Kahli" style="border: 2px solid #147e7d">
-		          <div class="card-divider align-center" style="background-color:#147e7d"><h3 style="color:white">Kahli Café</h3></div>
-  		          <img src="img/kahli.jpg">
-  		            <div class="card-section" style="background-color:rgba(250,169,170,0.5)">
-                    <p>Kahli, segundo local de la empresaria y chef Sophia Rodriguez, se ubica en Granadilla Norte, Curridabat, 25 m al sur del Vindi de Altamonte. “Teníamos un año trabajando en esto. Nos costó encontrar el lugar pero finalmente lo logramos”, dice.</p>
-                    <p>En este local, cuya premisa es "recibir con calidez a cada miembro de la familia", el visitante encontrará un restaurante, salones para clases de cocina y barismo, área para niños y, además, y un salón de eventos para alquilar. “Pretendemos que la gastronomía se viva desde diferentes aristas. Somos un pulmón gastronómico de la ciudad. Todas las áreas del restaurante dan a jardines, por eso queremos que se conciba así”, dijo Rodríguez.</p>
-                  </div>
-              </div>
-          </article>
-          <article class="" id="Festival">
-
-          </article>
-        </article>
+        <section class="cell large-7" style="border-left: 2px solid #faa9aa; margin-left: 3%; padding-left:3%">
+            <article class="grid-x text-left" id="Kahli">
+                <h3 class="cell large-12" style="color:#147e7d; text-shadow: 5px 1px white">Kahli Café</h3>
+                <br><p class="subheader">13 de marzo del 2018</p>
+  		        <img src="img/kahli.jpg" width="100%" class="thumbnail">
+  		        <div class="grid-x text-left">
+  		            <br>
+  		            <p>Kahli, segundo local de la empresaria y chef Sophia Rodriguez, se ubica en Granadilla Norte, Curridabat, 25 m al sur del Vindi de Altamonte. “Teníamos un año trabajando en esto. Nos costó encontrar el
+                    lugar pero finalmente lo logramos”, dice.</p>
+                    <p>En este local, cuya premisa es "recibir con calidez a cada miembro de la familia", el visitante encontrará un restaurante, salones para clases de cocina y barismo, área para niños y, además, y un
+                    salón de eventos para alquilar. “Pretendemos que la gastronomía se viva desde diferentes aristas. Somos un pulmón gastronómico de la ciudad. Todas las áreas del restaurante dan a jardines, por eso
+                    queremos que se conciba así”, dijo Rodríguez.</p>
+                </div>
+                <div class="input-group">
+                    <span class="input-group-label"><i class="material-icons">speaker_notes</i></span>
+                    <input class="input-group-field" type="text" placeholder="Comentario">
+                    <div class="input-group-button">
+                        <input type="submit" class="button" value="Enviar">
+                    </div>
+                </div>
+                <div class="media-object" style="border:1px inset">
+                    <div class="media-object-section align-self-middle">
+                        <div class="thumbnail">
+                            <img src="img/user1.jpg">
+                        </div>
+                    </div>
+                    <div class="media-object-section main-section align-self-middle">
+                        <h5>Ema Gabor</h5>
+                        <p>Disfrute mucho el lugar, excelente comida y muy buen servicio. Super recomendado!</p>
+                    </div>
+                </div>
+                <div class="media-object" style="border:1px inset">
+                    <div class="media-object-section align-self-middle">
+                        <div class="thumbnail">
+                            <img src="img/user2.jpeg">
+                        </div>
+                    </div>
+                    <div class="media-object-section main-section align-self-middle">
+                        <h5>Wolf Beverly</h5>
+                        <p>La mayoría de las cosas son hechos en casa, pero El Croissant es demasiado bueno. El café cualquiera que pidan es excelente.</p>
+                    </div>
+                </div>
+                <div class="media-object" style="border:1px inset">
+                    <div class="media-object-section align-self-middle">
+                        <div class="thumbnail">
+                            <img src="img/user3.jpg">
+                        </div>
+                    </div>
+                    <div class="media-object-section main-section align-self-middle">
+                        <h5>Rosalina David</h5>
+                        <p>Muy lindo cafe, se iguala a las pequeñas cafeterias de Barcelona o Paris.</p>
+                    </div>
+                </div>
+            </article>
+            <br>
+            <br>
+            <article class="grid-x text-left" id="Festival">
+                <h3 class="cell large-12" style="color:#147e7d; text-shadow: 3px 1px white">Festival Gastronómico La Luz 2018</h3>
+  		        <br><p class="subheader">12 de febrero del 2018</p>
+  		        <img src="img/festival.jpg" width="100%" class="thumbnail">
+  		        <div class="grid-x text-left">
+  		            <br>
+  		            <p>Prohibido perderse la sexta edición del Festival Gastronómico La Luz 2018, el próximo domingo 18 de febrero de 11 a.m. a 8 p.m, en Escalante.</p>
+                    <p>Los asistentes podrán saborear lo mejor de la gastronomía josefina y, al mismo tiempo, disfrutar de más de 8 horas de espectáculos artísticos, actividades recreativas y circenses en vivo.</p>
+                    <p>En esta ocasión participarán 15 restaurantes miembros de la Asociación de restaurantes del Paseo Gastronómico La Luz, donde los clientes podrán beneficiarse de un descuento del 15% al pagar con tarjetas
+                    BAC Credomatic, en más de 20 toldos disponibles con variedad de platillos. Durante las 9 horas de festival, la familia completa podrá elegir dónde comer y cómo divertirse, pues además de la tradicional
+                    cimarrona y mascaradas, las calles del barrio Escalante ofrecerán espectáculos de música, mimos, artistas circenses, malabares, danza aérea en telas, tatuajes temporales se contará además con el grupo de
+                    artistas Plein Air que estarán pintando en vivo.</p>
+                </div>
+                <div class="input-group">
+                    <span class="input-group-label"><i class="material-icons">speaker_notes</i></span>
+                    <input class="input-group-field" type="text" placeholder="Comentario">
+                    <div class="input-group-button">
+                        <input type="submit" class="button" value="Enviar">
+                    </div>
+                </div>
+                <div class="media-object" style="border:1px inset">
+                    <div class="media-object-section align-self-middle">
+                        <div class="thumbnail">
+                            <img src="img/user4.jpeg">
+                        </div>
+                    </div>
+                    <div class="media-object-section main-section align-self-middle">
+                        <h5>Cirino Brune</h5>
+                        <p>Excelente combinación, gastronomía, cultura y arte. Se nota logística cuidando todos los detalles, como el tema de parqueo.</p>
+                    </div>
+                </div>
+                <div class="media-object" style="border:1px inset">
+                    <div class="media-object-section align-self-middle">
+                        <div class="thumbnail">
+                            <img src="img/user5.jpg">
+                        </div>
+                    </div>
+                    <div class="media-object-section main-section align-self-middle">
+                        <h5>Julian De La Fuente</h5>
+                        <p>Costa Rica Beer Factory es de lo mejor. Recomiendo la cerveza Escalante tipo Red Ale y para comer, la mesa Vikinga como para 3 o 4 personas! Es un éxito!</p>
+                    </div>
+                </div>
+                <div class="media-object" style="border:1px inset">
+                    <div class="media-object-section align-self-middle">
+                        <div class="thumbnail">
+                            <img src="img/user6.jpg">
+                        </div>
+                    </div>
+                    <div class="media-object-section main-section align-self-middle">
+                        <h5>Coral Stephens</h5>
+                        <p>Todo el concepto es muy bueno. Un aire fresco para una coudad caotica. Deben hacerlo mas a menudo.</p>
+                    </div>
+                </div>
+            </article>
+        </section>
       </section>
     </div>
   </body>
